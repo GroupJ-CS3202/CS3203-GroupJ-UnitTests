@@ -11,50 +11,56 @@ So for the unlucky person that got me as their peer review thing, you have to ma
 
 and you can check if they're installed by running (For both windows and mac):
 
-**node -v
+**node -v**
 
-npm -v**
+**npm -v**
 
 After you gotten them both, clone or download this project. I'm pretty sure the structure of the files should be unchanged, but just incase, the 3 important files should be structured like this:
 
-project/
+**project/**
 
-├── validateUsername.js
+**├── validateUsername.js**
 
-├── tests/
+**├── tests/**
 
-│     └── validateUsername.test.js
+**│     └── validateUsername.test.js**
 
-└── package.json
+**└── package.json**
 
 But for the last bits of installing, you need to run the following to install the dependencies:
 
-npm install
+**npm install**
 
-npm install --save-dev jest
+**npm install --save-dev jest**
 
-### and then add this to the package.json (if not already there):
+and then add this to the package.json (if not already there):
 
-"scripts": {
+**"scripts": {**
 
-  "test": "jest"
+  **"test": "jest"**
 
-}
+**}**
 
 And now it's ready to run :D
 
 ## Running the test
 So now that you installed everything (I hope), you just have to open the terminal and just type in:
 
-npm test
+**npm test**
 
 and you should see an output something like this in your terminal:
- PASS  tests/validateUsername.test.js
-  validateUsername
-    ✓ valid usernames (4 ms)
-    ✓ invalid due to length
-    ✓ invalid starting with special character
-    ✓ invalid because it contains a hyphen
-    ✓ invalid due to completely invalid characters
+ **PASS  tests/validateUsername.test.js**
+
+  **validateUsername**
+
+    **✓ valid usernames (4 ms)**
+
+    **✓ invalid due to length**
+
+    **✓ invalid starting with special character**
+
+    **✓ invalid because it contains a hyphen**
+    
+   **✓ invalid due to completely invalid characters**
 
 and if you see that, YIPPIE the test is working :D
