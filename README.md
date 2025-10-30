@@ -11,15 +11,20 @@ So for the unlucky person that got me as their peer review thing, you have to ma
 
 and you can check if they're installed by running (For both windows and mac):
 
-node -v
-npm -v
+**node -v
+
+npm -v**
 
 After you gotten them both, clone or download this project. I'm pretty sure the structure of the files should be unchanged, but just incase, the 3 important files should be structured like this:
 
 project/
+
 ├── validateUsername.js
+
 ├── tests/
+
 │     └── validateUsername.test.js
+
 └── package.json
 
 But for the last bits of installing, you need to run the following to install the dependencies:
@@ -28,10 +33,12 @@ npm install
 
 npm install --save-dev jest
 
-and then add this to the package.json (if not already there):
+### and then add this to the package.json (if not already there):
 
 "scripts": {
+
   "test": "jest"
+
 }
 
 And now it's ready to run :D
