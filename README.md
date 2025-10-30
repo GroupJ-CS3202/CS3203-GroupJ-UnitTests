@@ -48,19 +48,4 @@ So now that you installed everything (I hope), you just have to open the termina
 
 **npm test**
 
-and you should see an output something like this in your terminal:
- **PASS  tests/validateUsername.test.js**
-
-  **validateUsername**
-
-    **✓ valid usernames (4 ms)**
-
-    **✓ invalid due to length**
-
-    **✓ invalid starting with special character**
-
-    **✓ invalid because it contains a hyphen**
-    
-   **✓ invalid due to completely invalid characters**
-
-and if you see that, YIPPIE the test is working :D
+and I hope you can see that the test passed :p
