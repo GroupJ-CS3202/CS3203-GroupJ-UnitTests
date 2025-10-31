@@ -12,7 +12,7 @@ Our unit tests are written in JavaScript, so you will need to download the follo
 - Select correct branch
 - git clone repository
 - cd into the proper directory in terminal
-
+- download gradle
 - Just type the command below in the terminal
 - If it doesn't work, I recommend you to reload the code
 <pre> gradle build </pre>
