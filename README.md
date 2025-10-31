@@ -118,6 +118,11 @@ Then re-run:
 npm test
 ```
 
+## Jest Troubleshooting
+
+If you run into errors installing Jest refer to:
+    [https://jestjs.io/docs/getting-started]
+
 **Author:** Cayden Sargent
 **Course:** Software Engineering Unit Testing Project
 
