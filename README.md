@@ -14,9 +14,6 @@ To validate unit tests, navigate to the correct branch and clone the repository.
 <pre> gradle test </pre>
 
 
-### Before Testing:
-- Download required dependencies
-- Make sure you are on the correct branch
-- Ensure that jest and node.js/npm are both working
+
 
 
