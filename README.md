@@ -1,5 +1,8 @@
 # CS3203-GroupJ-UnitTests
 
+## Overview
+This test will test the basics of creating a organization in our app's organization board. 
+
 ## Welcome to Group J's Unit Tests!
 To validate unit tests, navigate to the correct branch and clone the repository.
 
@@ -7,6 +10,13 @@ To validate unit tests, navigate to the correct branch and clone the repository.
 Our unit tests are written in JavaScript, so you will need to download the following to run them:
 - Node.js (https://nodejs.org/en/download)
 - Jest (https://jestjs.io/docs/getting-started)
+
+# Getting Started
+Download the dependencies above and verify them using the following terminal commands
+- node -v
+- npm -v
+Both of these commands should output version numbers
+
 
 ## To run tests:
 - Select correct branch
