@@ -13,8 +13,8 @@ Our unit tests are written in JavaScript, so you will need to download the follo
 - git clone repository
 - cd into the proper directory in terminal
 - install Node.js/npm and Jest
-- - follow steps in above link to Node.js downloads page to properly install Node.js on your system
-- - once npm is installed, type "npm install --save-dev jest" into your terminal
+    - follow steps in above link to Node.js downloads page to properly install Node.js on your system
+    - once npm is installed, type "npm install --save-dev jest" into your terminal
 - run jest tests by typing "npm test" into terminal
 - verify test results
 
