@@ -39,13 +39,6 @@ Clone the repository onto your local machine:
 ```bash
 git clone https://github.com/GroupJ-CS3202/CS3203-GroupJ-UnitTests.git
 ```
-
-> 💡 If you need to switch to a specific branch (e.g., Cayden’s branch):
->
-> ```bash
-> git checkout "Cayden's-unit-test"
-> ```
-
 Then navigate into the project folder:
 
 ```bash
@@ -125,29 +118,6 @@ Then re-run:
 npm test
 ```
 
----
-
-## ✅ Summary of Commands
-
-| Step | Command                       | Purpose                             |
-| ---- | ----------------------------- | ----------------------------------- |
-| 1    | `node -v` / `npm -v`          | Verify Node.js and npm installation |
-| 2    | `git clone <repo-url>`        | Clone this repository               |
-| 3    | `cd CS3203-GroupJ-UnitTests`  | Move into the project folder        |
-| 4    | `npm init -y`                 | Initialize npm (if needed)          |
-| 5    | `npm install jest --save-dev` | Install Jest                        |
-| 6    | `npm test`                    | Run all tests                       |
-
----
-
-**Author:** Group J — CS3203
+**Author:** Cayden Sargent
 **Course:** Software Engineering Unit Testing Project
 
-```
-
----
-
-✅ This version uses clean section headers, code formatting, and spacing — it’ll render perfectly on GitHub and be easy for students to follow.
-
-Would you like me to add a short “Expected Output” screenshot section (for clarity on what success looks like on GitHub)?
-```
