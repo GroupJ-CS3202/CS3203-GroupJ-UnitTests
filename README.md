@@ -12,11 +12,11 @@ Our unit tests are written in JavaScript, so you will need to download the follo
 - Select correct branch
 - git clone repository
 - cd into the proper directory in terminal
-- install Node.js/npm and Jest
-    - follow steps in above link to Node.js downloads page to properly install Node.js on your system
-    - once npm is installed, type "npm install --save-dev jest" into your terminal
-- run jest tests by typing "npm test" into terminal
-- verify test results
+
+- Just type the command below in the terminal
+- If it doesn't work, I recommend you to reload the code
+<pre> gradle build </pre>
+<pre> gradle test </pre>
 
 
 ### Before Testing:
@@ -24,8 +24,4 @@ Our unit tests are written in JavaScript, so you will need to download the follo
 - Make sure you are on the correct branch
 - Ensure that jest and node.js/npm are both working
 
-## How to Run Test:
-- Just type the command below in the terminal
-- If it doesn't work, I recommend you to reload the code
-<pre> gradle build </pre>
-<pre> gradle test </pre>
+
