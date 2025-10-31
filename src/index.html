@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h2>2025年10月</h2>
+      <div class="summary">
+        <div>月支出: $<span id="total-spent">0.00</span></div>
+        <div>月收入: $<span id="total-income">0.00</span></div>
+        <div>月結餘: $<span id="balance">0.00</span></div>
+      </div>
+    </header>
+
+    <canvas id="budgetChart"></canvas>
+
+    <div id="transactions"></div>
+
+    <button id="add-btn" class="add-btn">+</button>
+  </div>
+
+  <!-- Popup Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <h3>Add Transaction</h3>
+      <input type="text" id="desc" placeholder="Description">
+      <input type="number" id="amount" placeholder="Amount">
+      <select id="type">
+        <option value="expense">Expense</option>
+        <option value="income">Income</option>
+      </select>
+      <button id="save">Save</button>
+      <button id="cancel">Cancel</button>
+    </div>
+  </div>
+
+  <script src="financial.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
