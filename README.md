@@ -23,26 +23,41 @@ Node.js (comes with npm) or Yarn (https://nodejs.org/en/download)
 React Naive CLI (https://reactnative.dev/docs/getting-started)   
 - If you need to install above dependencies, restart VS Code (or your editor) to ensure everything is detected properly.
 - Verify Node.js and npm:
-
+```bash
 node -v
 npm -v
-
-
+```
 Both commands should print version numbers.
 
 ## Installation
-1. Clone the Repository
-   
+1. Clone the Repository  
+```bash 
 git clone https://github.com/GroupJ-CS3202/CS3203-GroupJ-UnitTests
 cd CS3203-GroupJ-UnitTests/financial-tracker
+```
 
-3. (Optional) Use VS Code as the development and testing platform
+2. (Optional) Use VS Code as the development and testing platform
+3. Initialize npm (if not already initialized)
+```bash
+npm init -y
+```
+4. Install dependencies
+```bash
+npm install
+```
+4. Install Jest for testing
+```bash
+npm install jest --save-dev
+```
 
-## Testing
+
+## Running Tests
 Step 1: Navigate to the correct folder in the terminal  
          Go to \financial-tracker folder in terminal  
 Step 2: Run following commands  
-         - npm test  
+```bash
+npm test
+```
 Step 3: Follow instruction  
          - press 'a' to run all test  
          - press 'q' to quit mode    
@@ -51,8 +66,15 @@ Step 3: Follow instruction
 Note: This is not required for the unit test assignment and may not be fully functional.  
 Step 1:  Make sure in the correct folder   
          Go to \financial-tracker folder in terminal  
-Step 2:　Start the web page   
-- Type "npm start"  
+Step 2:　Start the web page by running the following commands
+```bash
+npm start
+```
 - New page pop up (but it may not working now casue it is not the part of assignment)
 Step 3: Stops the React server completely  
         Press Ctrl + C in the terminal  
+
+
+
+Author: ChihYu
+Course: Software Engineering Unit Testing Project
