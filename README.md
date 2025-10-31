@@ -40,7 +40,7 @@ git clone --branch "ChihYu's-unit-test" https://github.com/GroupJ-CS3202/CS3203-
 ```bash
 npm init -y
 ```
-4. Install dependencies
+4. Install dependencies (MAKE SURE YOU DO IT!!)
 ```bash
 npm install
 ```
