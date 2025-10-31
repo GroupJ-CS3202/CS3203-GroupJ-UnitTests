@@ -1,5 +1,5 @@
 # CS3203-ChihYu-UnitTests
-This branch contains the unit tests for the GroupJ project. The unit tested here represents a financial part of the project, focusing only on the components we want to verify. The tests ensure the correctness of financial calculations, data tracking, and React component rendering. And Node.js and Jest are used for the test. 
+This branch contains the unit tests for the GroupJ project. The unit tested here represents a financial part of the project, focusing only on the financial components. The tests ensure the correctness of financial calculations, data tracking, and React component rendering. And Node.js and Jest are used for the test. 
 
 # Folder Description
 This folder corresponds to the financial page of the project. It allows users to:  
