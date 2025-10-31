@@ -23,9 +23,12 @@ React Naive CLI (https://reactnative.dev/docs/getting-started)
 
 ## Testing
 Step 1: Navigate to the correct folder in the terminal  
-Step 2: Run one of the following commands  
+         Go to \financial-tracker
+Step 2: Run following commands  
 - npm test
-- npx jest
+Step 3: Follow instruction
+- press 'a' to run all test
+- press 'q' to quit mode  
 
 ## (optional) Run the react-native web page
 Note: This is not required for the unit test assignment and may not be fully functional.  
