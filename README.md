@@ -25,10 +25,10 @@ React Naive CLI (https://reactnative.dev/docs/getting-started)
 Step 1: Navigate to the correct folder in the terminal  
          Go to \financial-tracker
 Step 2: Run following commands  
-- npm test
-Step 3: Follow instruction
-- press 'a' to run all test
-- press 'q' to quit mode  
+- npm test  
+Step 3: Follow instruction  
+- press 'a' to run all test  
+- press 'q' to quit mode    
 
 ## (optional) Run the react-native web page
 Note: This is not required for the unit test assignment and may not be fully functional.  
