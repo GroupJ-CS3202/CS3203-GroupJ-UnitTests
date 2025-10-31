@@ -2,6 +2,9 @@
 This is the unit-test branch for Chih-Yu.
 The unit here is just a part of the project and only contain the part we are going to test. 
 
+# Description
+
+
 # Getting start
 ## Dependencies
 Node.js (comes with npm) or Yarn (https://nodejs.org/en/download)
@@ -17,9 +20,9 @@ test the unit via terminal
 ## Run the react-native web page
 run the web page via terminal  
 Step 1:  make sure in the correct folder   
-go to \financial-tracker  
+         go to \financial-tracker  
 Step 2:　Start the web page   
-- ype "npm start"  
+- type "npm start"  
 - new page pop up (but it may not working now casue it is not the part of assignment)
 Step 3: Stops the React server completely  
-Press Ctrl + C in the terminal  
+        Press Ctrl + C in the terminal  
