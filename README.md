@@ -69,7 +69,7 @@ Open your `package.json` and make sure it includes this script:
 
 ```json
 "scripts": {
-  "test": "jest"
+  "test": "jest CalendarEvent.test.js"
 }
 ```
 
@@ -122,6 +122,7 @@ npm test
 
 If you run into errors installing Jest refer to:
     [https://jestjs.io/docs/getting-started]
+
 
 **Author:** Cayden Sargent
 **Course:** Software Engineering Unit Testing Project
