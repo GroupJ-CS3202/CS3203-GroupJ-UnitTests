@@ -32,7 +32,7 @@ Both commands should print version numbers.
 ## Installation
 1. Clone the Repository  
 ```bash 
-git clone https://github.com/GroupJ-CS3202/CS3203-GroupJ-UnitTests
+git clone --branch "ChihYu's-unit-test" https://github.com/GroupJ-CS3202/CS3203-GroupJ-UnitTests
 ```
 
 2. (Optional) Use VS Code as the development and testing platform
