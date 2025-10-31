@@ -1,5 +1,5 @@
 # CS3203-ChihYu-UnitTests
-This branch contains the unit tests for the GroupJ project. The unit tested here represents a specific part of the project, focusing only on the components we want to verify
+This branch contains the unit tests for the GroupJ project. The unit tested here represents a financial part of the project, focusing only on the components we want to verify. The tests ensure the correctness of financial calculations, data tracking, and React component rendering. And Node.js and Jest are used for the test. 
 
 # Folder Description
 This folder corresponds to the financial page of the project. It allows users to:  
@@ -7,19 +7,36 @@ This folder corresponds to the financial page of the project. It allows users to
 - Track total expenses and remaining budget  
 The main goal of this module is to help users monitor their financial situation effectively.
 
-# Unit Test Description
-The unit tests are designed to verify the correctness of financial calculations, including:  
-- Mathematical functions (e.g., calculating expenses, remaining budget)
+# Unit Test Overview
+The unit tests are designed to verify the correctness of following :  
+1. React Compenent(App)
+- Dashboard renders key elements correctly: TotalExpense, totalIncome, totalLeft
+- Add button (+) is visible
+3. Financial Tracker  
+- Initialization: Correct budget, spending, and income arrays
+- Mathematical functions (e.g., totalSpent, remainingBudget)
 - Tracking and updating financial records
 
 # Getting start
-## Dependencies
+## Dependencies and prequisites
 Node.js (comes with npm) or Yarn (https://nodejs.org/en/download)  
-React Naive CLI (https://reactnative.dev/docs/getting-started)  
+React Naive CLI (https://reactnative.dev/docs/getting-started)   
+- If you need to install above dependencies, restart VS Code (or your editor) to ensure everything is detected properly.
+- Verify Node.js and npm:
+
+node -v
+npm -v
+
+
+Both commands should print version numbers.
 
 ## Installation
 1. Clone the Repository
-2. (Optional) Use VS Code as the development and testing platform
+   
+git clone https://github.com/GroupJ-CS3202/CS3203-GroupJ-UnitTests
+cd CS3203-GroupJ-UnitTests/financial-tracker
+
+3. (Optional) Use VS Code as the development and testing platform
 
 ## Testing
 Step 1: Navigate to the correct folder in the terminal  
