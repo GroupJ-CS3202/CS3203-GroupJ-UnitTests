@@ -37,7 +37,7 @@ Both commands should print version numbers.
 Clone the repository onto your local machine:
 
 ```bash
-git clone https://github.com/GroupJ-CS3202/CS3203-GroupJ-UnitTests/tree/Cayden's-unit-test
+git clone --branch "Cayden's-unit-test" https://github.com/GroupJ-CS3202/CS3203-GroupJ-UnitTests.git
 ```
 Then navigate into the project folder:
 
@@ -110,6 +110,26 @@ Run this command **in PowerShell as Administrator**:
 
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+Then re-run:
+
+```bash
+npm test
+```
+
+### Mac OS "Permission Denied" Error
+
+If you see:
+
+```
+Permission Denied 
+```
+
+Run this command **in a terminal within the directory of the project**:
+
+```
+chmod +x node_modules/.bin/jest
 ```
 
 Then re-run:
