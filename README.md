@@ -33,7 +33,6 @@ Both commands should print version numbers.
 1. Clone the Repository  
 ```bash 
 git clone https://github.com/GroupJ-CS3202/CS3203-GroupJ-UnitTests
-cd CS3203-GroupJ-UnitTests/financial-tracker
 ```
 
 2. (Optional) Use VS Code as the development and testing platform
