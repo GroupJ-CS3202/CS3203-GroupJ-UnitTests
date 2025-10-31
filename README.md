@@ -27,5 +27,5 @@ Our unit tests are written in JavaScript, so you will need to download the follo
 ## How to Run Test:
 - Just type the command below in the terminal
 - If it doesn't work, I recommend you to reload the code
-<pre> gradle build <pre>
+<pre> gradle build </pre>
 <pre> gradle test </pre>
