@@ -52,7 +52,7 @@ npm install jest --save-dev
 
 ## Running Tests
 Step 1: Navigate to the correct folder in the terminal  
-         Go to \financial-tracker folder in terminal  
+         Go to folder in terminal  
 Step 2: Run following commands  
 ```bash
 npm test
@@ -64,7 +64,7 @@ Step 3: Follow instruction
 ## (optional) Run the react-native web page
 Note: This is not required for the unit test assignment and may not be fully functional.  
 Step 1:  Make sure in the correct folder   
-         Go to \financial-tracker folder in terminal  
+         Go to folder in terminal  
 Step 2:　Start the web page by running the following commands
 ```bash
 npm start
