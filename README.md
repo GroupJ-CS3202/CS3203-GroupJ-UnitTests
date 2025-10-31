@@ -9,6 +9,6 @@ Node.js (comes with npm) or Yarn (https://nodejs.org/en/download)
 Step 1: Clone the Repository
 (recommend to use VScode as testing platform)  
 
-Step 2: test the unit via terminal
-Note: make sure in the correct folder
-type: "npm test"  or "npx jest" 
+Step 2: test the unit via terminal   
+- Note: make sure in the correct folder  
+- Type: "npm test"  or "npx jest" 
