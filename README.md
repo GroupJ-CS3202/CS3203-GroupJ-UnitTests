@@ -22,16 +22,17 @@ React Naive CLI (https://reactnative.dev/docs/getting-started)
 2. (Optional) Use VS Code as the development and testing platform
 
 ## Testing
-test the unit via terminal   
-- Note: make sure in the correct folder   
-- Type: "npm test"  or "npx jest"  
+Step 1: Navigate to the correct folder in the terminal  
+Step 2: Run one of the following commands  
+- npm test
+- npx jest
 
 ## (optional) Run the react-native web page
 Note: This is not required for the unit test assignment and may not be fully functional.  
-Step 1:  make sure in the correct folder   
-         go to \financial-tracker  
+Step 1:  Make sure in the correct folder   
+         Go to \financial-tracker  
 Step 2:　Start the web page   
-- type "npm start"  
-- new page pop up (but it may not working now casue it is not the part of assignment)
+- Type "npm start"  
+- New page pop up (but it may not working now casue it is not the part of assignment)
 Step 3: Stops the React server completely  
         Press Ctrl + C in the terminal  
