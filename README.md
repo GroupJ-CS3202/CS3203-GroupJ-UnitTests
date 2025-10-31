@@ -23,3 +23,6 @@ Our unit tests are written in JavaScript, so you will need to download the follo
 - Download required dependencies
 - Make sure you are on the correct branch
 - Ensure that jest and node.js/npm are both working
+
+## How to Run Test:
+<pre> ```bash gradle test ``` </pre>
