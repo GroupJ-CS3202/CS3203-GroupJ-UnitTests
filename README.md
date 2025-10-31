@@ -37,7 +37,7 @@ Both commands should print version numbers.
 Clone the repository onto your local machine:
 
 ```bash
-git clone https://github.com/GroupJ-CS3202/CS3203-GroupJ-UnitTests.git
+git clone https://github.com/GroupJ-CS3202/CS3203-GroupJ-UnitTests/tree/Cayden's-unit-test
 ```
 Then navigate into the project folder:
 
@@ -55,7 +55,7 @@ Initialize npm (if not already initialized):
 npm init -y
 ```
 
-Install **Jest** as a development dependency:
+Install **Jest**:
 
 ```bash
 npm install jest --save-dev
