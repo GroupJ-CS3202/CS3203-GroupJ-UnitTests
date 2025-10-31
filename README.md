@@ -13,8 +13,10 @@ Our unit tests are written in JavaScript, so you will need to download the follo
 
 # Getting Started
 Download the dependencies above and verify them using the following terminal commands
+...bash
 - node -v
 - npm -v
+...
 Both of these commands should output version numbers
 
 
@@ -33,3 +35,4 @@ Both of these commands should output version numbers
 - Download required dependencies
 - Make sure you are on the correct branch
 - Ensure that jest and node.js/npm are both working
+
