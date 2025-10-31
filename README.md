@@ -1,80 +1,70 @@
-# CS3203-ChihYu-UnitTests
-This branch contains the unit tests for the GroupJ project. The unit tested here represents a financial part of the project, focusing only on the components we want to verify. The tests ensure the correctness of financial calculations, data tracking, and React component rendering. And Node.js and Jest are used for the test. 
+# Getting Started with Create React App
 
-# Folder Description
-This folder corresponds to the financial page of the project. It allows users to:  
-- Modify income, budget, and expenses as input
-- Track total expenses and remaining budget  
-The main goal of this module is to help users monitor their financial situation effectively.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Unit Test Overview
-The unit tests are designed to verify the correctness of following :  
-1. React Compenent(App)
-- Dashboard renders key elements correctly: TotalExpense, totalIncome, totalLeft
-- Add button (+) is visible
-3. Financial Tracker  
-- Initialization: Correct budget, spending, and income arrays
-- Mathematical functions (e.g., totalSpent, remainingBudget)
-- Tracking and updating financial records
+## Available Scripts
 
-# Getting start
-## Dependencies and prequisites
-Node.js (comes with npm) or Yarn (https://nodejs.org/en/download)  
-React Naive CLI (https://reactnative.dev/docs/getting-started)   
-- If you need to install above dependencies, restart VS Code (or your editor) to ensure everything is detected properly.
-- Verify Node.js and npm:
-```bash
-node -v
-npm -v
-```
-Both commands should print version numbers.
+In the project directory, you can run:
 
-## Installation
-1. Clone the Repository  
-```bash 
-git clone https://github.com/GroupJ-CS3202/CS3203-GroupJ-UnitTests
-cd CS3203-GroupJ-UnitTests/financial-tracker
-```
+### `npm start`
 
-2. (Optional) Use VS Code as the development and testing platform
-3. Initialize npm (if not already initialized)
-```bash
-npm init -y
-```
-4. Install dependencies
-```bash
-npm install
-```
-4. Install Jest for testing
-```bash
-npm install jest --save-dev
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Running Tests
-Step 1: Navigate to the correct folder in the terminal  
-         Go to \financial-tracker folder in terminal  
-Step 2: Run following commands  
-```bash
-npm test
-```
-Step 3: Follow instruction  
-         - press 'a' to run all test  
-         - press 'q' to quit mode    
+### `npm test`
 
-## (optional) Run the react-native web page
-Note: This is not required for the unit test assignment and may not be fully functional.  
-Step 1:  Make sure in the correct folder   
-         Go to \financial-tracker folder in terminal  
-Step 2:　Start the web page by running the following commands
-```bash
-npm start
-```
-- New page pop up (but it may not working now casue it is not the part of assignment)
-Step 3: Stops the React server completely  
-        Press Ctrl + C in the terminal  
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Author: ChihYu
-Course: Software Engineering Unit Testing Project
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
