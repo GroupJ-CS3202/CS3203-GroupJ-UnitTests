@@ -9,8 +9,10 @@ Our unit tests are written in JavaScript, so you will need to download the follo
 - Jest (https://jestjs.io/docs/getting-started)
 
 ## To run tests:
-- Select correct branch
 - git clone repository
+- select correct branch by using "git checkout" command
+    - "git branch" command to view all branches
+    - "git checkout (branch-name)"
 - cd into the proper directory in terminal
 - install Node.js/npm and Jest
     - follow steps in above link to Node.js downloads page to properly install Node.js on your system
