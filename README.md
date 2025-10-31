@@ -12,7 +12,7 @@ The unit tests are designed to verify the correctness of following :
 1. React Compenent(App)
 - Dashboard renders key elements correctly: TotalExpense, totalIncome, totalLeft
 - Add button (+) is visible
-3. Financial Tracker  
+2. Financial Tracker  
 - Initialization: Correct budget, spending, and income arrays
 - Mathematical functions (e.g., totalSpent, remainingBudget)
 - Tracking and updating financial records
