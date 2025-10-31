@@ -23,9 +23,9 @@ React Naive CLI (https://reactnative.dev/docs/getting-started)
 
 ## Testing
 Step 1: Navigate to the correct folder in the terminal  
-         Go to \financial-tracker  
+         Go to \financial-tracker in terminal  
 Step 2: Run following commands  
-         - npm test  
+- npm test  
 Step 3: Follow instruction  
          - press 'a' to run all test  
          - press 'q' to quit mode    
