@@ -1,24 +1,33 @@
-# CS3203-GroupJ-UnitTests
-This is the unit-test branch for Chih-Yu.
-The unit here is just a part of the project and only contain the part we are going to test. 
+# CS3203-ChihYu-UnitTests
+This branch contains the unit tests for the GroupJ project. The unit tested here represents a specific part of the project, focusing only on the components we want to verify
 
-# Description
+# Folder Description
+This folder corresponds to the financial page of the project. It allows users to:  
+- Modify income, budget, and expenses as input
+- Track total expenses and remaining budget  
+The main goal of this module is to help users monitor their financial situation effectively.
 
+# Unit Test Description
+The unit tests are designed to verify the correctness of financial calculations, including:  
+- Mathematical functions (e.g., calculating expenses, remaining budget)
+- Tracking and updating financial records
 
 # Getting start
 ## Dependencies
-Node.js (comes with npm) or Yarn (https://nodejs.org/en/download)
+Node.js (comes with npm) or Yarn (https://nodejs.org/en/download)  
+React Naive CLI (https://reactnative.dev/docs/getting-started)  
+
 ## Installation
-Clone the Repository
-(recommend to use VScode as testing platform)  
+1. Clone the Repository
+2. (Optional) Use VS Code as the development and testing platform
 
 ## Testing
 test the unit via terminal   
 - Note: make sure in the correct folder   
 - Type: "npm test"  or "npx jest"  
 
-## Run the react-native web page
-run the web page via terminal  
+## (optional) Run the react-native web page
+Note: This is not required for the unit test assignment and may not be fully functional.  
 Step 1:  make sure in the correct folder   
          go to \financial-tracker  
 Step 2:　Start the web page   
