@@ -1,64 +1,153 @@
+
 # CS3203-GroupJ-UnitTests
 
-This project demonstrates a unit test using 'Node.js' and 'Jest'
+This project demonstrates a simple **unit test** using **Node.js** and **Jest**.
 
 ---
 
-##Overview
+## Overview
 
-- CalenderEvent.js - main class definition
-- CalendarEvent.test.js - Jest test suite verifying functionality 
-- package.json - config for scripts and such
+- **CalendarEvent.js** — main class definition  
+- **CalendarEvent.test.js** — Jest test suite verifying functionality  
+- **package.json** — configuration file for scripts and dependencies  
 
 ---
 
-##Prerequisites
+## Prerequisites
 
-Before running these tests we need to ensure two things are installed: Node.js and Npm
+Before running the tests, make sure you have **Node.js** and **npm** installed.
 
-Node.js can be installed here: https://nodejs.org/
+- Download and install Node.js here:  
+   [https://nodejs.org/]
 
-Verify within the directory path that both npm and Node.js are present with:
+After installation, **restart VS Code** (or your editor) to ensure everything is detected properly.
 
+Verify Node.js and npm are available by running:
+```bash
 node -v
-
 npm -v
+````
 
-NOTE: AFTER INSTALLING Node.js PLEASE RESTART VS CODE(or your equivalent editor)
---- 
-
-Next, clone the repo:
-
-Use the command: git clone https://github.com/GroupJ-CS3202/CS3203-GroupJ-UnitTests/tree/Cayden's-unit-test
+Both commands should print version numbers.
 
 ---
 
-After cloning the repo onto your machine, we need to ensure npm is initialized within the project directory.
+## Cloning the Repository
 
+Clone the repository onto your local machine:
+
+```bash
+git clone https://github.com/GroupJ-CS3202/CS3203-GroupJ-UnitTests.git
+```
+
+> 💡 If you need to switch to a specific branch (e.g., Cayden’s branch):
+>
+> ```bash
+> git checkout "Cayden's-unit-test"
+> ```
+
+Then navigate into the project folder:
+
+```bash
+cd CS3203-GroupJ-UnitTests
+```
+
+---
+
+## Setup
+
+Initialize npm (if not already initialized):
+
+```bash
 npm init -y
+```
 
-Also ensure Jest is properly installed:
+Install **Jest** as a development dependency:
 
+```bash
 npm install jest --save-dev
+```
 
 ---
 
-Next, go into the package.json, and ensure the following line exist:
+## Configure package.json
 
+Open your `package.json` and make sure it includes this script:
+
+```json
 "scripts": {
   "test": "jest"
 }
+```
 
 ---
 
-Finally, to execute all test use: 
+## Running Tests
 
+To execute all tests, run:
+
+```bash
 npm test
+```
 
-##Troubleshooting
+You should see output similar to:
 
-ISSUE 1: On Windows, if you get the error "Running scripts is disabled on this system"
+```
+PASS  ./CalendarEvent.test.js
+✓ should create a CalendarEvent object correctly
+✓ should calculate duration in days
+✓ should return true if event is ongoing
+✓ should return false if event is not ongoing
+✓ should validate date intervals correctly
+```
 
-Run this as an admin in your powershell window: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+---
 
-Then retry: npm test
+## Troubleshooting
+
+### Windows PowerShell Error
+
+If you see:
+
+```
+Running scripts is disabled on this system
+```
+
+Run this command **in PowerShell as Administrator**:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+Then re-run:
+
+```bash
+npm test
+```
+
+---
+
+## ✅ Summary of Commands
+
+| Step | Command                       | Purpose                             |
+| ---- | ----------------------------- | ----------------------------------- |
+| 1    | `node -v` / `npm -v`          | Verify Node.js and npm installation |
+| 2    | `git clone <repo-url>`        | Clone this repository               |
+| 3    | `cd CS3203-GroupJ-UnitTests`  | Move into the project folder        |
+| 4    | `npm init -y`                 | Initialize npm (if needed)          |
+| 5    | `npm install jest --save-dev` | Install Jest                        |
+| 6    | `npm test`                    | Run all tests                       |
+
+---
+
+**Author:** Group J — CS3203
+**Course:** Software Engineering Unit Testing Project
+
+```
+
+---
+
+✅ This version uses clean section headers, code formatting, and spacing — it’ll render perfectly on GitHub and be easy for students to follow.
+
+Would you like me to add a short “Expected Output” screenshot section (for clarity on what success looks like on GitHub)?
+```
